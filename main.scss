@@ -1,0 +1,33 @@
+@import "config";
+
+body {
+  background: $primary-color;
+}
+
+#main {
+  margin-left: 1rem;
+}
+
+#container {
+  margin: 1rem auto;
+  // background: $secondary-color;
+  // width: 50%;
+  padding: 10px;
+}
+
+#deploy {
+  background: red;
+}
+
+.question-container {
+  padding-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+}
+
+#results {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

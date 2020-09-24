@@ -7,35 +7,15 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
     <title>Quiz</title>
   </head>
   <body>
-    <form name="quiz" id="Quiz">
-      <div>
-        <p class="heading">What is 10/20?</p>
-        <p><input type="radio" name="firstQuestion" value="4" />A.4</p>
-        <p><input type="radio" name="firstQuestion" value="0.5" />B.0.5</p>
-        <p><input type="radio" name="firstQuestion" value="8" />C.8</p>
-        <p><input type="radio" name="firstQuestion" value="6" />D.6</p>
-      </div>
-      <div>
-        <p class="heading">What is 40/2</p>
-        <p><input type="radio" name="secondQuestion" value="80" />A.80</p>
-        <p><input type="radio" name="secondQuestion" value="10" />B.10</p>
-        <p><input type="radio" name="secondQuestion" value="20" />C.20</p>
-        <p><input type="radio" name="secondQuestion" value="0" />D.0</p>
-      </div>
-      <!-- <div>
-        <p class="heading">What is 90/20</p>
-        <p><input type="radio" name="thirdQuestion" value="4.5" />A.4.5</p>
-        <p><input type="radio" name="thirdQuestion" value="30" />B.30</p>
-        <p><input type="radio" name="thirdQuestion" value="2" />C.2</p>
-        <p><input type="radio" name="thirdQuestion" value="11" />D.11</p>
-      </div> -->
-      <button class="btn btn-success" onclick="check()">Submit</button>
-    </form>
-    <p id="result"></p>
+    <div id="main">
+      <div id="container"></div>
+      <div id="results"></div>
+      <button class="btn btn-success" onclick="showresults()">Submit</button>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
